@@ -3,9 +3,9 @@ import { Card } from "antd";
 import Meta from "antd/es/card/Meta";
 import React from 'react'
 
-const PokemonCard = () => {
+const PokemonCard = ({ name }) => {
   return (
-    <Card title='Ditto' cover={<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/132.png" alt="Ditto" />}
+    <Card title={name} cover={<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/shiny/132.png" alt={name} />}
       extra={<StarOutlined />}
     >
       <Meta description='fire, magic' />
