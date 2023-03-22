@@ -9,7 +9,7 @@ import { getPokemonsWithDetails, setLoading } from './actions';
 import './App.css';
 
 function App() {
-  const pokemons = useSelector(state => state.pokemons);
+  const pokemons = useSelector(state => state.get('pokemons')).toJS();
   const loading = useSelector((state) => state.loading);
   const dispatch = useDispatch();
   useEffect(() => {

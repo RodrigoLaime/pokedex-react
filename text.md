@@ -10,3 +10,6 @@ npm i redux react-redux
 
 ## 
 npm i redux-thunk
+
+## dependencia que delega una responsabilidad de asegurar la inmutabilidad en nuestro estado
+npm i immutable

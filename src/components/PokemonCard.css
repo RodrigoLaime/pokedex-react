@@ -1,0 +1,10 @@
+.Card{
+    background-color: #131c2bff;
+    color: white;
+}
+:where(.css-dev-only-do-not-override-ph9edi).ant-card .ant-card-head-title {
+    color: white;
+}
+.anticon {
+    color: purple;
+}

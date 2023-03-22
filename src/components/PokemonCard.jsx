@@ -4,6 +4,7 @@ import StartButton from "./StartButton";
 import React from 'react'
 import { useDispatch } from "react-redux";
 import { setFavorite } from "../actions";
+import './PokemonCard.css'
 
 const PokemonCard = ({ name, image, types, id, favorite }) => {
   const dispatch = useDispatch();
@@ -15,7 +16,7 @@ const PokemonCard = ({ name, image, types, id, favorite }) => {
   };
 
   return (
-    <Card title={name} cover={<img src={image} alt={name} />}
+    <Card className="Card" title={name} cover={<img src={image} alt={name} />}
       extra={<StartButton
         isFavorite={favorite}
         onClick={handleOnFavorite}
