@@ -13,3 +13,9 @@ npm i redux-thunk
 
 ## dependencia que delega una responsabilidad de asegurar la inmutabilidad en nuestro estado
 npm i immutable
+
+##
+npm i redux-immutable
+
+## para evitar configurar redux y que generar una curva de aprendisaje mas elevada
+npm install @reduxjs/toolkit

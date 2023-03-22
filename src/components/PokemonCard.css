@@ -1,10 +1,16 @@
-.Card{
-    background-color: #131c2bff;
-    color: white;
+.Card {
+  background-color: rgb(31, 50, 83);
+  color: white;
 }
+
 :where(.css-dev-only-do-not-override-ph9edi).ant-card .ant-card-head-title {
-    color: white;
+  color: white;
 }
+
 .anticon {
-    color: purple;
+  color: purple;
+}
+
+:where(.css-dev-only-do-not-override-ph9edi).ant-card .ant-card-meta-description {
+  color: white
 }
